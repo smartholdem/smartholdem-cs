@@ -49,7 +49,7 @@ namespace SmartHoldemNet.Controller.Tests
         public void SendSmartHoldemTest()
         {
             var accCtnrl = new AccountController(_passPhrase);
-            var result = accCtnrl.SendSmartHoldem(1, _address, "SmartHoldem.Net test trans from Account");
+            var result = accCtnrl.SendSTH(1, _address, "SmartHoldem.Net test trans from Account");
 
             Assert.IsTrue(result.Success);
             Assert.IsNotNull(result.TransactionIds);

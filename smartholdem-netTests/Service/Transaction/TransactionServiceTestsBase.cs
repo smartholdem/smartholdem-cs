@@ -19,7 +19,7 @@ namespace SmartHoldemNet.Service.Transaction.Tests
 {
     public class TransactionServiceTestsBase : TestsBase
     {
-        protected string _blockId = "3818761022088867644";
+        protected string _blockId = "9116970896546202944";
 
         public void InitializeTransactionServiceTest()
         {
@@ -39,7 +39,7 @@ namespace SmartHoldemNet.Service.Transaction.Tests
         {
             if (base.USE_DEV_NET)
             {
-                _blockId = "5615079277476658670";
+                _blockId = "14115848906604682585";
             }
         }
 

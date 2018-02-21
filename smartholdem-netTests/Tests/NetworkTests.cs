@@ -19,8 +19,8 @@ namespace SmartHoldemNetTest.Tests
 	     pass: seat excess fat category basic entire salute feed various guard treat history
 	     */
 
-        private string _address = "SgfSC4H3AViZHwf1MeXaThsvJBThwV1AS9";
-        private string _passPhrase = "seat excess fat category basic entire salute feed various guard treat history";
+        private string _address = "Sa9JKodiNeM7tbYjxwEhvvG1kBczhQxTN3";
+        private string _passPhrase = "this is a test";
         private string _noBalanceAddress = "Si71eBSBe7gDJaW8krAN9UTfFwee5BdJwd";
         private string _noBalanceAddressPassPhrase = "rare dove dress alley reveal either machine roast gold book lecture shoot";
 

@@ -33,7 +33,7 @@ namespace SmartHoldemNet.Service.Account.Tests
         private void Setup()
         {
             if (base.USE_DEV_NET)
-                _address = "DFZG912okkrs9vvZUDV1rqCgzh26zgED3Q";
+                _address = "TnA7H8XaWBjkLty13CEfPJ5NdhPprxGKnP";
         }
 
         public void GetByAddressResultTest(SmartHoldemAccountResponse account)

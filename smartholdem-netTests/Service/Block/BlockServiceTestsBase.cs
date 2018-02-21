@@ -16,8 +16,8 @@ namespace SmartHoldemNet.Service.Block.Tests
 {
     public class BlockServiceTestsBase : TestsBase
     {
-        protected int _height = 2339637;
-        protected string _generatorPublicKey = "027a9b5dc98c75902f871e889fb3076dd27b11e158a49e3915e0307ecd9781f51e";
+        protected int _height = 697654;
+        protected string _generatorPublicKey = "02090a83979b14f6c1eda93bb942d278b81fa2e4515ef54450ed084906ebf2ef12";
 
         public void InitializeBlockServiceTest()
         {
@@ -37,8 +37,8 @@ namespace SmartHoldemNet.Service.Block.Tests
         {
             if (base.USE_DEV_NET)
             {
-                _height = 1608634;
-                _generatorPublicKey = "02b7b740973db16cd9c6f0f6f2bc160d27cd2a855e172d887833141bec234eb80c";
+                _height = 421145;
+                _generatorPublicKey = "023d890b58bee6ec8c3cee7bb631ac0ed9f3fe59bf627505c80067414814df8024";
             }
         }
 

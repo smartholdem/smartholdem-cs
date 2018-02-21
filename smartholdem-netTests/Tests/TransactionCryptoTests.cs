@@ -15,8 +15,8 @@ namespace SmartHoldemNetTest.Tests
 	{
         private string _passPhrase = "this is a test";
         private string _address = "Sa9JKodiNeM7tbYjxwEhvvG1kBczhQxTN3";
-        private string _addressFromCrypto = "SdHQoaDXeHvj9853iCrTG5G4APAUHH5EnH";
-        private string _pubKey = "02b391c9b1d8607861254c081b0902d1793fe0c0544ef912a584dc40be48aa390a";
+        private string _addressFromCrypto = "SgfSC4H3AViZHwf1MeXaThsvJBThwV1AS9";
+        private string _pubKey = "0259dc2549cf0e7c7bd2a0c203bb6bebf12a7ca468e130d86fcbc9ffb6b52f0eda";
 
         [TestInitialize]
 	    public void Init()
@@ -25,10 +25,10 @@ namespace SmartHoldemNetTest.Tests
 
             if (USE_DEV_NET)
             {
-                _passPhrase = "this is a test";
-                _address = "TnA7H8XaWBjkLty13CEfPJ5NdhPprxGKnP";
-                _addressFromCrypto = "TiGek5KGRWzGaRxb87CeukeeBhvi1Uu57b";
-                _pubKey = "035f3686304fee9f6a34aee0f7b17b4861cbd178731488301cf350c28a1786906f";
+                _passPhrase = "art cabin save inspire comfort trend frown control gun record cruise garment";
+                _address = "TiGek5KGRWzGaRxb87CeukeeBhvi1Uu57b";
+                _addressFromCrypto = "TfsivR8EC1Up2pm1hi5Y1YTGCa1onp3SkF";
+                _pubKey = "02ca550ebe5b35e8a04cc89b4812901dc40b652e167cc2f41d99fa2453fd63a24c";
             }
         }
 

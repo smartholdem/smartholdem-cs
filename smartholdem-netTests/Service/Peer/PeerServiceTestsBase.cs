@@ -18,7 +18,7 @@ namespace SmartHoldemNet.Service.Peer.Tests
 {
     public class PeerServiceTestsBase : TestsBase
     {
-        protected string _ip = "213.239.207.170";
+        protected string _ip = "88.198.67.196";
         protected int _port = 6100;
 
         public void InitializePeerServiceTest()

@@ -44,3 +44,5 @@ TransactionApi tx = TransactionApi.CreateTransaction(recepient, amount, descript
 Peer peer = Network.Mainnet.GetRandomPeer();
 
 var result = peer.PostTransaction(tx);    
+
+For tests create folder c:/temp

@@ -49,7 +49,7 @@ namespace SmartHoldemNet.Controller.Tests
         public void SendSmartHoldemTest()
         {
             var accCtnrl = new AccountController(_passPhrase);
-            var result = accCtnrl.SendSTH(1, _address, "SmartHoldem.Net test trans from Account");
+            var result = accCtnrl.SendSmartHoldem(1, _address, "SmartHoldem.Net test trans from Account");
 
             Assert.IsTrue(result.Success);
             Assert.IsNotNull(result.TransactionIds);
@@ -60,7 +60,7 @@ namespace SmartHoldemNet.Controller.Tests
         public void SendSmartHoldemUsingMultiBroadCastTest()
         {
             var accCtnrl = new AccountController(_passPhrase);
-            var result = accCtnrl.SendSTHUsingMultiBroadCast(1, _address, "SmartHoldem.Net test multi-trans from Account");
+            var result = accCtnrl.SendSmartHoldemUsingMultiBroadCast(1, _address, "SmartHoldem.Net test multi-trans from Account");
 
             Assert.IsTrue(result.Where(x => x.Success).Count() > 0);
         }
@@ -69,7 +69,7 @@ namespace SmartHoldemNet.Controller.Tests
         public async Task SendSmartHoldemUsingMultiBroadCastAsyncTest()
         {
             var accCtnrl = new AccountController(_passPhrase);
-            var result = await accCtnrl.SendSTHUsingMultiBroadCastAsync(1, _address, "SmartHoldem.Net test multi-trans from Account");
+            var result = await accCtnrl.SendSmartHoldemUsingMultiBroadCastAsync(1, _address, "SmartHoldem.Net test multi-trans from Account");
 
             Assert.IsTrue(result.Where(x => x.Success).Count() > 0);
         }

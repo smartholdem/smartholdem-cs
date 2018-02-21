@@ -48,7 +48,7 @@ namespace SmartHoldemNet.Controller
         //    throw new NotImplementedException();
         //}
 
-        public SmartHoldemTransactionPostResponse SendSTH(long satoshiAmount, string recipientAddress,
+        public SmartHoldemTransactionPostResponse SendSmartHoldem(long satoshiAmount, string recipientAddress,
             string vendorField)
         {
             var tx = TransactionApi.CreateTransaction(recipientAddress,
@@ -60,7 +60,7 @@ namespace SmartHoldemNet.Controller
             return TransactionService.PostTransaction(tx);
         }
 
-        public async Task<SmartHoldemTransactionPostResponse> SendSTHAsync(long satoshiAmount, string recipientAddress,
+        public async Task<SmartHoldemTransactionPostResponse> SendSmartHoldemAsync(long satoshiAmount, string recipientAddress,
             string vendorField)
         {
             var tx = TransactionApi.CreateTransaction(recipientAddress,
@@ -72,7 +72,7 @@ namespace SmartHoldemNet.Controller
             return await TransactionService.PostTransactionAsync(tx);
         }
 
-        public List<SmartHoldemTransactionPostResponse> SendSTHUsingMultiBroadCast(long satoshiAmount, string recipientAddress,
+        public List<SmartHoldemTransactionPostResponse> SendSmartHoldemUsingMultiBroadCast(long satoshiAmount, string recipientAddress,
             string vendorField)
         {
             var tx = TransactionApi.CreateTransaction(recipientAddress,
@@ -84,7 +84,7 @@ namespace SmartHoldemNet.Controller
             return TransactionService.MultipleBroadCast(tx);
         }
 
-        public async Task<List<SmartHoldemTransactionPostResponse>> SendSTHUsingMultiBroadCastAsync(long satoshiAmount, string recipientAddress,
+        public async Task<List<SmartHoldemTransactionPostResponse>> SendSmartHoldemUsingMultiBroadCastAsync(long satoshiAmount, string recipientAddress,
             string vendorField)
         {
             var tx = TransactionApi.CreateTransaction(recipientAddress,

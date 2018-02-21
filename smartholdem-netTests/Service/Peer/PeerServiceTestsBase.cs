@@ -18,8 +18,8 @@ namespace SmartHoldemNet.Service.Peer.Tests
 {
     public class PeerServiceTestsBase : TestsBase
     {
-        protected string _ip = "5.39.9.240";
-        protected int _port = 4001;
+        protected string _ip = "213.239.207.170";
+        protected int _port = 6100;
 
         public void InitializePeerServiceTest()
         {
@@ -39,8 +39,8 @@ namespace SmartHoldemNet.Service.Peer.Tests
         {
             if (base.USE_DEV_NET)
             {
-                _ip = "167.114.29.55";
-                _port = 4002;
+                _ip = "88.198.67.196";
+                _port = 4100;
             }
         }
 

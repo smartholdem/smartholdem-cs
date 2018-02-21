@@ -17,10 +17,10 @@ namespace SmartHoldemNet.Controller.Tests
     [TestClass()]
     public class AccountControllerTests : TestsBase
     {
-        private string _address = "SgfSC4H3AViZHwf1MeXaThsvJBThwV1AS9";
-        private string _pubKey = "0259dc2549cf0e7c7bd2a0c203bb6bebf12a7ca468e130d86fcbc9ffb6b52f0eda";
-        private string _passPhrase = "seat excess fat category basic entire salute feed various guard treat history";
-        private string _delegateName = "gendelegate_1";
+        private string _address = "Sa9JKodiNeM7tbYjxwEhvvG1kBczhQxTN3";
+        private string _pubKey = "03675c61dcc23eab75f9948c6510b54d34fced4a73d3c9f2132c76a29750e7a614";
+        private string _passPhrase = "this is a test";
+        private string _delegateName = "tdelegate";
 
         [TestInitialize]
         public void Init()

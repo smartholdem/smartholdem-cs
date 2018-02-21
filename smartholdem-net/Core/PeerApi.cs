@@ -55,7 +55,7 @@ namespace SmartHoldemNet.Core
         {
             HttpResponseMessage response;
             var methodString = new HttpMethod(method).ToString().ToUpper();
-
+            Console.WriteLine(path);
             try
             {
                 switch (methodString)

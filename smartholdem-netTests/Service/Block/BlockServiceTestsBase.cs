@@ -80,7 +80,7 @@ namespace SmartHoldemNet.Service.Block.Tests
         public void GetEpochResultTest(DateTime epoch)
         {
             Assert.AreNotEqual(DateTime.MinValue, epoch);
-            Assert.AreEqual(636256980000000000, epoch.Ticks);
+            Assert.AreEqual(636468660000000000, epoch.Ticks);
         }
 
         public void GetHeightResultTest(long height)

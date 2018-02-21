@@ -17,8 +17,8 @@ namespace SmartHoldemNet.Service.Delegate.Tests
     public class DelegateServiceTestsBase : TestsBase
     {
         protected string _userName = "gendelegate_1";
-        protected string _resultUserNameFromPubKey = "gendelegate_2";
-        protected string _pubKey = "0259dc2549cf0e7c7bd2a0c203bb6bebf12a7ca468e130d86fcbc9ffb6b52f0eda";
+        protected string _resultUserNameFromPubKey = "postcoin";
+        protected string _pubKey = "035be5a053f39a83739694a4217e1861e92787204eb23550fa82ba85edbe3dece1";
         protected string _address = "SgfSC4H3AViZHwf1MeXaThsvJBThwV1AS9";
 
         public void InitializeDelegateServiceTest()

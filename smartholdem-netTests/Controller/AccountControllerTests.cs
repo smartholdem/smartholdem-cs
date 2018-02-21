@@ -32,7 +32,7 @@ namespace SmartHoldemNet.Controller.Tests
                 _address = "ToiwGW7yUFRR6qFxNFty7raVV17vGLtmT8";
                 _pubKey = "035304a8a6a2a671080c45ba7d6fbf61bc6c938be19cf98b52a156b78f2bc6bd7b";
                 _passPhrase = "sense artefact frame grocery quarter nominee awful gossip village fuel favorite drill";
-                _delegateName = "genesis_10 ";
+                _delegateName = "genesis_10";
             }
         }
 

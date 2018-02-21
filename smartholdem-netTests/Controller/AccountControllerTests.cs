@@ -86,7 +86,8 @@ namespace SmartHoldemNet.Controller.Tests
 
             var accCtnrl = new AccountController(_passPhrase);
             var result = accCtnrl.VoteForDelegate(votes);
-
+            
+            Console.WriteLine(a2);
             Assert.IsTrue(result.Success || (result.Success == false && result.TransactionIds == null && result.Error == "Failed to add vote, account has already voted for this delegate"));
         }
 

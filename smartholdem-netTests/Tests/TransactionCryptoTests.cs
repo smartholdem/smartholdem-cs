@@ -170,7 +170,7 @@ namespace SmartHoldemNetTest.Tests
 	    [TestMethod]
 	    public void CreateVoteSignTest()
 	    {
-	        List<string> votes = new List<string> { "+034151a3ec46b5670a682b0a63394f863587d1bc97483b1b6c70eb58e7f0aed192" };
+	        List<string> votes = new List<string> { "+035304a8a6a2a671080c45ba7d6fbf61bc6c938be19cf98b52a156b78f2bc6bd7b" };
 
 
 	        var tx = TransactionApi.CreateVote(votes, _passPhrase);

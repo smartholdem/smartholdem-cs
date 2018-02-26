@@ -41,7 +41,7 @@ namespace SmartHoldemNet.Service.Delegate.Tests
             {
                 _userName = "genesis_10";
                 _resultUserNameFromPubKey = "genesis_1";
-                _pubKey = "023d890b58bee6ec8c3cee7bb631ac0ed9f3fe59bf627505c80067414814df8024";
+                _pubKey = "035304a8a6a2a671080c45ba7d6fbf61bc6c938be19cf98b52a156b78f2bc6bd7b";
                 _address = "ToiwGW7yUFRR6qFxNFty7raVV17vGLtmT8";
             }
         }

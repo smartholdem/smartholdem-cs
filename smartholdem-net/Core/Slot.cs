@@ -4,7 +4,7 @@ namespace SmartHoldemNet.Core
 {
 	public class Slot
 	{
-		private static readonly DateTime beginEpoch = new DateTime(2017, 10, 21, 13, 00, 0, DateTimeKind.Utc);
+		private static readonly DateTime beginEpoch = new DateTime(2017, 11, 21, 13, 00, 0, DateTimeKind.Utc);
 
 		public static int GetTime()
 		{

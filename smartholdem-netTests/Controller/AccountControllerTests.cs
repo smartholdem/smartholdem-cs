@@ -84,14 +84,12 @@ namespace SmartHoldemNet.Controller.Tests
             plusVotes.Add("+" + dele.Delegate.PublicKey);
             minusVotes.Add("-" + dele.Delegate.PublicKey);
 
-            //var a2 = JsonConvert.SerializeObject(votes);
-
             var accCtnrl = new AccountController(_passPhrase);
             
             accCtnrl.VoteForDelegate(minusVotes);
             System.Threading.Thread.Sleep(20000);
             var result = accCtnrl.VoteForDelegate(plusVotes);
-            //Console.WriteLine(a2);
+
             Assert.IsTrue(result.Success || (result.Success == false && result.TransactionIds == null && result.Error == "Failed to add vote, account has already voted for this delegate"),result.Error);
         }
 

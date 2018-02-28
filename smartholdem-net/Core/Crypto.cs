@@ -70,7 +70,6 @@ namespace SmartHoldemNet.Core
 
 		public static string GetAddress(Key keys, byte version)
 		{
-			//keys.S
 			return GetAddress(keys.PubKey.ToBytes(), version);
 		}
 

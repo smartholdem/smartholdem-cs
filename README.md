@@ -1,5 +1,5 @@
 # SmartHoldem Platform API C#
-(https://github.com/smartholdem/smartmedia/blob/master/mediakit/sh_c%23.jpg)
+[![SmartHoldem CSharp](https://github.com/smartholdem/smartmedia/blob/master/mediakit/sh_c%23.jpg)](https://github.com/smartholdem/smartholdem-cs)
 
 ### SmartHoldem-CS Client init
 

@@ -1,7 +1,7 @@
 # SmartHoldem Platform API C#
 (https://github.com/smartholdem/smartmedia/blob/master/mediakit/sh_c%23.jpg)
 
-SmartHoldem-CS Client init
+### SmartHoldem-CS Client init
 
 First call should be network selection, so all settings can initialize before going into action.
 
@@ -13,24 +13,24 @@ Account/Wallet layer
 
 > var accCtnrl = new AccountController("top secret pass");
 
-###Send STH
+### Send STH
 
 > var result = accCtnrl.SendSTH(100, "Sa9JKodiNeM7tbYjxwEhvvG1kBczhQxTN3", "Test trans from Account", "pass phrase");
 
-###Vote Delegate                
+### Vote Delegate                
 > var result = accCtnrl.VoteForDelegate( votes, "top secret pass");
 
 Service layer
 
 For a full list of available api calls please look at the SmartHoldem-CS Test project
 
-###PeerService
+### PeerService
 
 > var peers = PeerService.GetAll();
 
 > var peersOK = peers.Where(x => x.Status.Equals("OK"));
 
-###TransactionService
+### TransactionService
 
 > var trans = TransactionService.GetAll();
 

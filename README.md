@@ -13,24 +13,24 @@ Account/Wallet layer
 
 > var accCtnrl = new AccountController("top secret pass");
 
-//Send STH
+###Send STH
 
 > var result = accCtnrl.SendSTH(100, "Sa9JKodiNeM7tbYjxwEhvvG1kBczhQxTN3", "Test trans from Account", "pass phrase");
 
-//Vote 4 Delegate                
+###Vote Delegate                
 > var result = accCtnrl.VoteForDelegate( votes, "top secret pass");
 
 Service layer
 
 For a full list of available api calls please look at the SmartHoldem-CS Test project
 
-//PeerService
+###PeerService
 
 > var peers = PeerService.GetAll();
 
 > var peersOK = peers.Where(x => x.Status.Equals("OK"));
 
-//TransactionService
+###TransactionService
 
 > var trans = TransactionService.GetAll();
 
@@ -40,10 +40,10 @@ Core Layer
 
 Layer is used for core SmartHoldem blockchain communication (transaction, crypto...). It is wrapped by api libraries that are called from the service and Account layer.
 
-TransactionApi tx = TransactionApi.CreateTransaction(recepient, amount, description, passphrase);
+> TransactionApi tx = TransactionApi.CreateTransaction(recepient, amount, description, passphrase);
 
-Peer peer = Network.Mainnet.GetRandomPeer();
+> Peer peer = Network.Mainnet.GetRandomPeer();
 
-var result = peer.PostTransaction(tx);    
+> var result = peer.PostTransaction(tx);    
 
 For tests create folder c:/temp

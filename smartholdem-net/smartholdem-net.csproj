@@ -1,27 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
+    <TargetFramework>net462</TargetFramework>
   </PropertyGroup>
-  
   <PropertyGroup>
     <Version>0.8.0</Version>
     <FileVersion>0.8.0</FileVersion>
-	<Description>SmartHoldem.NET Client Api for SmartHoldem Unity</Description>
-	<Copyright>Copyright © 2018, SmartHoldem</Copyright>
-	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageId>smartholdem.net</PackageId>
-	<Authors>SmartHoldem</Authors>
-	<Company>SmartHoldem.io</Company>
-	<Product>SmartHoldem.NET</Product>
-	<PackageProjectUrl>https://github.com/smartholdem/smartholdem-net</PackageProjectUrl>
-	<PackageLicenseUrl>https://github.com/smartholdem/smartholdem-net/blob/master/LICENSE</PackageLicenseUrl>
-	<RepositoryUrl>https://github.com/smartholdem/smartholdem-net</RepositoryUrl>
-	<RepositoryType>GitHub</RepositoryType>
-	<PackageIconUrl>https://github.com/smartholdem/smartholdem-net/res/6464.png?raw=true</PackageIconUrl>
-	<NeutralLanguage></NeutralLanguage>
+    <Description>SmartHoldem.NET Client Api for SmartHoldem Unity</Description>
+    <Copyright>Copyright © 2018, SmartHoldem</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>smartholdem.net</PackageId>
+    <Authors>SmartHoldem</Authors>
+    <Company>SmartHoldem.io</Company>
+    <Product>SmartHoldem.NET</Product>
+    <PackageProjectUrl>https://github.com/smartholdem/smartholdem-net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/smartholdem/smartholdem-net/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/smartholdem/smartholdem-net</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageIconUrl>https://github.com/smartholdem/smartholdem-net/res/6464.png?raw=true</PackageIconUrl>
+    <NeutralLanguage>
+    </NeutralLanguage>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
     <PackageReference Include="NBitcoin" Version="4.0.0.38" />
@@ -31,5 +29,4 @@
     <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
     <PackageReference Include="Validation" Version="2.4.15" />
   </ItemGroup>
-
 </Project>

@@ -33,15 +33,9 @@ namespace SmartHoldemNet
 
         private List<Tuple<string, int>> _peerSeedListDevNet =
             new List<Tuple<string, int>> {
-            Tuple.Create("95.183.9.205", 4100),
-            Tuple.Create("88.198.67.196", 4100),
-            Tuple.Create("194.87.109.198", 4100),
-            Tuple.Create("194.87.232.27", 4100),
-            Tuple.Create("194.87.146.50", 4100),
-            Tuple.Create("194.87.109.123", 4100),
-            Tuple.Create("95.183.9.207", 4100),
-            Tuple.Create("195.133.1.3", 4100),
-            Tuple.Create("95.183.9.191", 4100)
+            Tuple.Create("88.198.67.196", 6101),
+            Tuple.Create("213.239.207.170", 6101),
+            Tuple.Create("80.211.38.83", 6101)
             };
 
         private static readonly Lazy<SmartHoldemNetApi> _lazy =

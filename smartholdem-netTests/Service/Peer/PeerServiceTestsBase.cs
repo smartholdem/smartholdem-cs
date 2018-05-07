@@ -40,7 +40,7 @@ namespace SmartHoldemNet.Service.Peer.Tests
             if (base.USE_DEV_NET)
             {
                 _ip = "88.198.67.196";
-                _port = 4100;
+                _port = 6101;
             }
         }
 

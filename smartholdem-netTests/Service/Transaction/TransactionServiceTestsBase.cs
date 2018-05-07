@@ -39,7 +39,7 @@ namespace SmartHoldemNet.Service.Transaction.Tests
         {
             if (base.USE_DEV_NET)
             {
-                _blockId = "14115848906604682585";
+                _blockId = "10989145419427330148";
             }
         }
 

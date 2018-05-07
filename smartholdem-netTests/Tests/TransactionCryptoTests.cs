@@ -25,10 +25,10 @@ namespace SmartHoldemNetTest.Tests
 
             if (USE_DEV_NET)
             {
-                _passPhrase = "art cabin save inspire comfort trend frown control gun record cruise garment";
-                _address = "TiGek5KGRWzGaRxb87CeukeeBhvi1Uu57b";
-                _addressFromCrypto = "TfsivR8EC1Up2pm1hi5Y1YTGCa1onp3SkF";
-                _pubKey = "02ca550ebe5b35e8a04cc89b4812901dc40b652e167cc2f41d99fa2453fd63a24c";
+                _passPhrase = "essay pledge slab slush avocado check icon genre scale nut surround hat";
+                _address = "DLDuxqCFtA2ZvBQWSMKWnpQUL2wgtvAxhn";
+                _addressFromCrypto = "DJi22Q2R5JPV9hgmRr5YyxPcvNPAM4AzDC";
+                _pubKey = "0223ccfaee704337d650687b3377bdac12206473e6fef8aab448f26ee9d4647257";
             }
         }
 
@@ -170,7 +170,7 @@ namespace SmartHoldemNetTest.Tests
 	    [TestMethod]
 	    public void CreateVoteSignTest()
 	    {
-	        List<string> votes = new List<string> { "+035304a8a6a2a671080c45ba7d6fbf61bc6c938be19cf98b52a156b78f2bc6bd7b" };
+	        List<string> votes = new List<string> { "+020664026362dce27637b8f77039b5158ec0e53dac9ad0cca7a15b55d9a6556ba0" };
 
 
 	        var tx = TransactionApi.CreateVote(votes, _passPhrase);

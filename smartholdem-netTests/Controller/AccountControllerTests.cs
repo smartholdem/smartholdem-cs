@@ -29,10 +29,10 @@ namespace SmartHoldemNet.Controller.Tests
 
             if (USE_DEV_NET)
             {
-                _address = "ToiwGW7yUFRR6qFxNFty7raVV17vGLtmT8";
-                _pubKey = "035304a8a6a2a671080c45ba7d6fbf61bc6c938be19cf98b52a156b78f2bc6bd7b";
-                _passPhrase = "sense artefact frame grocery quarter nominee awful gossip village fuel favorite drill";
-                _delegateName = "genesis_10";
+                _address = "DJi22Q2R5JPV9hgmRr5YyxPcvNPAM4AzDC";
+                _pubKey = "0223ccfaee704337d650687b3377bdac12206473e6fef8aab448f26ee9d4647257";
+                _passPhrase = "essay pledge slab slush avocado check icon genre scale nut surround hat";
+                _delegateName = "reserve01";
             }
         }
 

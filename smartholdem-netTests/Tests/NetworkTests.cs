@@ -31,10 +31,10 @@ namespace SmartHoldemNetTest.Tests
 
             if (USE_DEV_NET)
             {
-                _address = "ToiwGW7yUFRR6qFxNFty7raVV17vGLtmT8";
-                _noBalanceAddress = "TnA7H8XaWBjkLty13CEfPJ5NdhPprxGKnP";
-                _passPhrase = "sense artefact frame grocery quarter nominee awful gossip village fuel favorite drill";
-                _noBalanceAddressPassPhrase = "this is a test";
+                _address = "DJi22Q2R5JPV9hgmRr5YyxPcvNPAM4AzDC";
+                _noBalanceAddress = "DLDuxqCFtA2ZvBQWSMKWnpQUL2wgtvAxhn";
+                _passPhrase = "essay pledge slab slush avocado check icon genre scale nut surround hat";
+                _noBalanceAddressPassPhrase = "also crisp senior lottery develop hour boil random feel anxiety toddler novel";
             }
 	    }
 

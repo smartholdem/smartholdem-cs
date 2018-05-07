@@ -37,8 +37,8 @@ namespace SmartHoldemNet.Service.Block.Tests
         {
             if (base.USE_DEV_NET)
             {
-                _height = 421145;
-                _generatorPublicKey = "023d890b58bee6ec8c3cee7bb631ac0ed9f3fe59bf627505c80067414814df8024";
+                _height = 222495;
+                _generatorPublicKey = "0293b54b3afb129046948d66fcb029efc421d21634b8cd18b92878daecd53fecd7";
             }
         }
 

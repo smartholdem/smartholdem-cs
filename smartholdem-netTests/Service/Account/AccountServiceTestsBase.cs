@@ -14,7 +14,7 @@ namespace SmartHoldemNet.Service.Account.Tests
 {
     public class AccountServiceTestsBase : TestsBase
     {
-        protected string _address = "AQLUKKKyKq5wZX7rCh4HJ4YFQ8bpTpPJgK";
+        protected string _address = "Sa9JKodiNeM7tbYjxwEhvvG1kBczhQxTN3";
 
         public void InitializeAccountServiceTest()
         {
@@ -33,7 +33,7 @@ namespace SmartHoldemNet.Service.Account.Tests
         private void Setup()
         {
             if (base.USE_DEV_NET)
-                _address = "TnA7H8XaWBjkLty13CEfPJ5NdhPprxGKnP";
+                _address = "DJi22Q2R5JPV9hgmRr5YyxPcvNPAM4AzDC";
         }
 
         public void GetByAddressResultTest(SmartHoldemAccountResponse account)
